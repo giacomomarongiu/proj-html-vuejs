@@ -14,5 +14,6 @@
 2) Creare le varie strutture dei Macro-Componenti (Senza particolare stile)
 - 1) Header -> Navbar + Jumbo
 - 2) Main -> OurSpecialities + LatestNews + Testimonials + Contact Us
+    -- Creare una componente per ognuna delle 4 sezioni
 - 3) Footer -> 4 Cards con Titolo e testo
 
