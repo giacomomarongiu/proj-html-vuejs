@@ -1,3 +1,22 @@
-/* *{
-  background-color: black;
-} */
+/*Colours*/
+:root {
+  /*Colours*/
+  /*Whites*/
+  --bool-bg-lighter: #ffffff;
+  --bool-bg-lighterrrr: #fafafa;
+  --bool-bg-lighterrrrr: #fbf9f9;
+  --bool-bg-lighterrrrrr: #e1e1e1;
+
+  /*Primaries*/
+  --bool-bg-primary: #ff4612;
+  --bool-bg-primaryy: #ef2853;
+  --bool-bg-primaryyy: #ee2852;
+
+  /*Greys and Blacks*/
+  --bool-bg-dark: #bbbbbb;
+  --bool-bg-darkk: #1e1e1e;
+  --bool-bg-darkkk: #1e1c1c;
+  --bool-bg-darkkkk: #191516;
+  --bool-bg-darkkkkk: #181515;
+  --bool-bg-darkkkkkk: #d9d9d9;
+}
