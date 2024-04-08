@@ -14,9 +14,9 @@ export default {
 
         <!--1st section Our Specialities-->
         <div id="ourspecialities" class="">
-            <div class="container">
-                <!--Titles-->
-                <div class="window-wrapper m-auto">
+
+                <!--Titles & cards-->
+                <div class="window-wrapper m-auto container">
                     <div class="titles text-center">
                         <h2>Our Specialities</h2>
                         <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
@@ -72,41 +72,34 @@ export default {
                 </div>
 
                 <!--Carosuel and text-->
-                <div class="d-flex">
+                <div class="container w-75 m-auto d-flex pt-5">
                     <!--Carosuel-->
-                    <div id="carouselExampleDark" class="carousel carousel-dark slide w-50">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
+                    <div id="carouselTwo" class="col-7 carousel slide">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="../assets/img/01.jpg" class="d-block w-100">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
+                            <div class="carousel-item active">
+                                <img src="../assets/img/events/h1-img-01.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/events/h1-img-02.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTwo"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+
                     </div>
 
                     <!--Text-->
-                    <div class="col">
-                        <div class="card">
+                    <div class="pippo col-7 align-self-center position-relative">
+                        <div class="card py-5 px-3">
                             <div class="card-body">
                                 <div class="card-title">Jason Bickford</div>
                                 <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
@@ -115,6 +108,15 @@ export default {
                             </div>
                         </div>
                     </div>
+                </div>
+
+
+                <div class="py-5 events position-relative">
+                    <img src="../assets/img/01.jpg" class="d-block w-100">
+                    <div class="w-25 position-absolute top-50 end-50 bg-light">
+                        Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Eum voluptatum distinctio explicabo? Tenetur officia alias perspiciatis, eaque
+                        libero nam maxime.</div>
                 </div>
 
                 <!--Due bei div al 50%-->
@@ -148,14 +150,6 @@ export default {
                     </div>
                 </div>
 
-                <div class="events position-relative">
-                    <img src="../assets/img/01.jpg" class="d-block w-100">
-                    <div class="w-25 position-absolute top-0 end-50 ">Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit. Eum voluptatum distinctio explicabo? Tenetur officia alias perspiciatis, eaque
-                        libero nam maxime.</div>
-                </div>
-
-            </div>
         </div>
 
         <!--2nd Section-->
@@ -336,9 +330,16 @@ export default {
 .window-wrapper {
     width: 90%;
     margin: auto;
-    z-index: ;
-    border: 2px solid black;
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
     background-color: white;
     padding-top: 2rem;
+}
+
+
+.pippo {
+    margin-left: -2rem;
+
 }
 </style>

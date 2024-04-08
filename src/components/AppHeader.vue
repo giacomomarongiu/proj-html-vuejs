@@ -80,14 +80,18 @@ header {
     margin-top: -2rem;
     margin-bottom: -2rem;
 
+
     .mylogo {
         max-width: 100px;
     }
 
 }
 
-.carousel-caption {
-    width: 35%;
-    top: 35%
+#carouselExample {
+        z-index:0;
+    .carousel-caption {
+        width: 35%;
+        top: 35%
+    }
 }
 </style>
