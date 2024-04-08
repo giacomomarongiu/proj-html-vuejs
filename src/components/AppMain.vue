@@ -15,140 +15,170 @@ export default {
         <!--1st section Our Specialities-->
         <div id="ourspecialities" class="">
 
-                <!--Titles & cards-->
-                <div class="window-wrapper m-auto container">
-                    <div class="titles text-center">
-                        <h2>Our Specialities</h2>
-                        <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
-                    </div>
-
-                    <!--Row with cards-->
-                    <div class="row m-5">
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!--Titles & cards-->
+            <div class="window-wrapper m-auto container">
+                <div class="titles text-center">
+                    <h2>Our Specialities</h2>
+                    <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
                 </div>
 
-                <!--Carosuel and text-->
-                <div class="container w-75 m-auto d-flex pt-5">
-                    <!--Carosuel-->
-                    <div id="carouselTwo" class="col-7 carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../assets/img/events/h1-img-01.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/img/events/h1-img-02.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTwo"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-
-                    </div>
-
-                    <!--Text-->
-                    <div class="pippo col-7 align-self-center position-relative">
-                        <div class="card py-5 px-3">
+                <!--Row with cards-->
+                <div class="row m-5">
+                    <div class="col-3">
+                        <div class="card">
                             <div class="card-body">
-                                <div class="card-title">Jason Bickford</div>
-                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                    harum.</div>
-                                <div>Pippo Pluto Paperino</div>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Carosuel and text-->
+            <div class="container w-75 m-auto d-flex pt-5">
+                <!--Carosuel-->
+                <div id="carouselTwo" class="col-7 carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/img/events/h1-img-01.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/events/h1-img-02.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTwo"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+
+                <!--Text-->
+                <div class="pippo col-7 align-self-center position-relative">
+                    <div class="card py-5 px-3">
+                        <div class="card-body">
+                            <div class="card-title">Jason Bickford</div>
+                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                                harum.</div>
+                            <div>Pippo Pluto Paperino</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Carosuel Events-->
+            <!--Jumbo/Carosuel-->
+            <div id="carouselThree" class="carousel slide ">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">>
+                        <img src="../assets/img/events/h1-img-01.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="event_tab w-75 carousel-caption text-dark text-start">
+                        <div class="wrapper col-6 bg-light">
+                            <h3 class="p-2 border">Upcoming Events</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="events-card border d-flex">
+                                        <div class="col-3">DATA</div>
+                                        <div class="col-9">
+                                            <h4>Titolo</h4>
+                                            <p>Orario</p>
+                                            <p>Luogo</p>
+                                            <p class="fw-bolg">REAM MORE</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselThree"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselThree"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
-                <div class="py-5 events position-relative">
-                    <img src="../assets/img/01.jpg" class="d-block w-100">
-                    <div class="w-25 position-absolute top-50 end-50 bg-light">
-                        Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit. Eum voluptatum distinctio explicabo? Tenetur officia alias perspiciatis, eaque
-                        libero nam maxime.</div>
-                </div>
-
-                <!--Due bei div al 50%-->
-                <div class="d-flex">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="card">
-                                <div class="card-title">Jason Bickford</div>
-                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                    harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, debitis
-                                    expedita?
-                                    Nesciunt architecto totam similique velit repudiandae quod voluptates tempore unde
-                                    molestias maxime consectetur distinctio iste accusantium praesentium laudantium
-                                    obcaecati culpa sed maiores, quam eligendi nostrum porro hic error esse! Sequi
-                                    blanditiis vero sed nulla neque qui, repudiandae voluptatum dolorem.</div>
-                            </div>
+            <!--Due bei div al 50%-->
+            <div class="d-flex">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-title">Jason Bickford</div>
+                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                                harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, debitis
+                                expedita?
+                                Nesciunt architecto totam similique velit repudiandae quod voluptates tempore unde
+                                molestias maxime consectetur distinctio iste accusantium praesentium laudantium
+                                obcaecati culpa sed maiores, quam eligendi nostrum porro hic error esse! Sequi
+                                blanditiis vero sed nulla neque qui, repudiandae voluptatum dolorem.</div>
                         </div>
-                        <div class="col-6">
-                            <div class="card">
-                                <div class="card-title">Jason Bickford</div>
-                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                    harum.</div>
-                                <div class="card-title">Jason Bickford</div>
-                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                    harum.</div>
-                                <div class="card-title">Jason Bickford</div>
-                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                    harum.</div>
-                            </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-title">Jason Bickford</div>
+                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                                harum.</div>
+                            <div class="card-title">Jason Bickford</div>
+                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                                harum.</div>
+                            <div class="card-title">Jason Bickford</div>
+                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                                harum.</div>
                         </div>
                     </div>
                 </div>
+            </div>
 
         </div>
 
@@ -341,5 +371,10 @@ export default {
 .pippo {
     margin-left: -2rem;
 
+}
+
+.event_tab{
+    position: absolute;
+    top:25%
 }
 </style>
