@@ -3,7 +3,7 @@
 
 ## Requisiti tecnici minimi
 - Creare un progetto con Vite OK
-- Creare 3 Macro-Componenti Header/Main/Footer
+- Creare 3 Macro-Componenti Header/Main/Footer OK
 - Popolare le voci di Header e Footer dinamicamente
 -- Farlo tramite le Props
 -- Creando una struttura dati idonea
@@ -14,6 +14,8 @@
 2) Creare le varie strutture dei Macro-Componenti (Senza particolare stile)
 - 1) Header -> Navbar + Jumbo
 - 2) Main -> OurSpecialities + LatestNews + Testimonials + Contact Us
-    -- Creare una componente per ognuna delle 4 sezioni
 - 3) Footer -> 4 Cards con Titolo e testo
+3) Importare tutti gli assets dal mio drive
+4) Rivisionare tutte le componenti: dare più stile(distanze in particolare) e iniziare a inserire le immagini
+5) Iniziare a pensare a quali sotto-componenti implementare (Scrivere qui) 
 
