@@ -1,4 +1,4 @@
-<script >
+<script>
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue"
@@ -12,18 +12,20 @@ export default {
   },
   data() {
     return {
-      
+
     }
   }
 }
 </script>
 
 <template>
-<AppHeader />
-<AppMain />
-<AppFooter />
+
+  <body class="">
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
+  </body>
+
 </template>
 
-<style >
-
-</style>
+<style></style>

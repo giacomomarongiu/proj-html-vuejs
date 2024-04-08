@@ -16,6 +16,7 @@
 - 2) Main -> OurSpecialities + LatestNews + Testimonials + Contact Us
 - 3) Footer -> 4 Cards con Titolo e testo
 3) Importare tutti gli assets dal mio drive
-4) Rivisionare tutte le componenti: dare più stile(distanze in particolare) e iniziare a inserire le immagini
-5) Iniziare a pensare a quali sotto-componenti implementare (Scrivere qui) 
+4) Rivisionare tutte le componenti: dare più stile(distanze in particolare) e iniziare a inserire le immagini 08/04
+
+5) Iniziare a pensare a quali sotto-componenti implementare 09/04 (Scrivere qui) 
 

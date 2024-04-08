@@ -13,53 +13,59 @@ export default {
     <main> <!--Divided in 4 Sections-->
 
         <!--1st section Our Specialities-->
-        <div id="ourspecialties">
+        <div id="ourspecialities" class="">
             <div class="container">
                 <!--Titles-->
-                <div class="titles text-center">
-                    <h2>Our Specialities</h2>
-                    <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
-                </div>
+                <div class="window-wrapper m-auto">
+                    <div class="titles text-center">
+                        <h2>Our Specialities</h2>
+                        <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
+                    </div>
 
-                <!--Row with cards-->
-                <div class="row m-5">
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
+                    <!--Row with cards-->
+                    <div class="row m-5">
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -144,7 +150,9 @@ export default {
 
                 <div class="events position-relative">
                     <img src="../assets/img/01.jpg" class="d-block w-100">
-                    <div class="w-25 position-absolute top-0 end-50 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum voluptatum distinctio explicabo? Tenetur officia alias perspiciatis, eaque libero nam maxime.</div>
+                    <div class="w-25 position-absolute top-0 end-50 ">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Eum voluptatum distinctio explicabo? Tenetur officia alias perspiciatis, eaque
+                        libero nam maxime.</div>
                 </div>
 
             </div>
@@ -324,4 +332,13 @@ export default {
 
 </template>
 
-<style scoped></style>
+<style>
+.window-wrapper {
+    width: 90%;
+    margin: auto;
+    z-index: ;
+    border: 2px solid black;
+    background-color: white;
+    padding-top: 2rem;
+}
+</style>

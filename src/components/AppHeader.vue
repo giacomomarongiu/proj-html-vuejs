@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <header class=" position-realative">
+    <header class="">
         <!--NavBar-->
         <nav class="navbar navbar-expand-lg position-absolute z-1 w-100 pt-5 text-dark fw-bold">
             <div class="container-fluid">
@@ -78,10 +78,12 @@ export default {
 <style>
 header {
     margin-top: -2rem;
+    margin-bottom: -2rem;
 
     .mylogo {
         max-width: 100px;
     }
+
 }
 
 .carousel-caption {
