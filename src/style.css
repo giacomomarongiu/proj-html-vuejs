@@ -20,3 +20,18 @@
   --bool-bg-darkkkkk: #181515;
   --bool-bg-darkkkkkk: #d9d9d9;
 }
+
+
+.my_btn {
+  border: none;
+}
+
+.bg_myprimary {
+  color:white;
+  background-color: var(--bool-bg-primary);
+}
+
+.bg_mylight{
+  color:black;
+  background-color: var(--bool-bg-lighter);
+}
