@@ -20,13 +20,22 @@
 
 5) Iniziare a pensare a:
 - quali sotto-componenti implementare 09/04 (Scrivere qui) 
+    -- Una componente per ogni sezione del main
     -- Una Componente Carosello a cui passo un Oggetto con: Dimensione Carosello(?), lista delle Immagini e classe per definire la tipologia di bottoni.
     -- (Dubbio) Una Componente Card
 
--quali elementi inserire dinamicamente 09/04(Scrivere qui) 
-    -- Card in Our specialities
+-quali elementi inserire dinamicamente (Scrivere qui) 
+    -- Voci dell'Header (Come da consegna)
+    -- Voci del Footer (Come da consegna)
+    -- Card in Our specialities (Fare la struttura direttamente lì)
     -- Card in Events
     -- Card in News (?)
     -- Card in testimonials(?)
     -- Loghi
-    -- Colonne nel footer
+
+6) Creare una struttura dati idonea per popolare le voci di Header e Footer 09/04
+7) Stampare dinamicamente le voci tramite le Props 09/04 e valutare il tempo
+    - Se c'è tempo fare le componenti e pensare dopo allo stile
+    - Se no dedicarsi direttamente allo stile e renderlo identico allo screen
+89) Finire lo stile (data?)
+89) Iniziare a creare le varie Componenti pensate nella Milestone 5 e popolarle (data?)
