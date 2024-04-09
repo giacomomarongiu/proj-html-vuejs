@@ -20,26 +20,38 @@
   --bool-bg-darkkkkk: #181515;
   --bool-bg-darkkkkkk: #d9d9d9;
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
   font-family: "IBM Plex Serif",
-serif;;
+    serif;
 }
 
-/*Header*/
+/*Utilities */
 .my_btn {
   border: none;
+  font-size:xx-small;
+  font-weight: bolder;
+  min-width: 150px;
+  min-height: 40px;
 }
 
 .bg_myprimary {
-  color:white;
+  color: white;
   background-color: var(--bool-bg-primary);
 }
 
-.bg_mylight{
-  color:black;
+.text_myprimary {
+  color: var(--bool-bg-primary);
+}
+
+.bg_mylight {
+  color: black;
   background-color: var(--bool-bg-lighter);
 }
 
+/*Header*/
 header {
   margin-top: -2rem;
   margin-bottom: -2rem;
