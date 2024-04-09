@@ -35,18 +35,18 @@ export default {
         <!--Titles & cards-->
         <div class="window-wrapper m-auto container">
             <div class="titles text-center">
-                <h2>Our Specialities</h2>
-                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h6>
+                <h2 class="fw-bold">Our Specialities<span class="text_myprimary">.</span></h2>
+                <h6 class="fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h6>
             </div>
-
+            <div class="riga m-auto my-3">_______</div>
             <!--Row with cards-->
-            <div class="row m-5">
+            <div class="row m-5 gx-5">
                 <div class="col-3" v-for="item in svgImgs">
                     <div class="card border border-0">
-                        <img :src="item.url" class="card-img-top" alt="...">
+                        <img :src="item.url" class="card-img-top p-3 pb-1" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">{{ item.name }}</h5>
-                            <p class="card-text">Some quick text to build on the card </p>
+                            <h5 class="card-title fw-bold pt-0">{{ item.name }}</h5>
+                            <p class=" my_text_smaller">Some quick text to build on the card </p>
                         </div>
                     </div>
                 </div>

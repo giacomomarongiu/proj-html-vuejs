@@ -23,7 +23,7 @@
 
 h1,
 h2,
-h3 {
+h3,h5 {
   font-family: "IBM Plex Serif",
     serif;
 }
@@ -49,6 +49,10 @@ h3 {
 .bg_mylight {
   color: black;
   background-color: var(--bool-bg-lighter);
+}
+
+.my_text_smaller{
+  font-size:x-small;
 }
 
 /*Header*/
