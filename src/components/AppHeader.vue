@@ -1,5 +1,6 @@
 <script>
-import AppHeaderMenu from "./AppHeaderPartials/AppHeaderMenu.vue"
+import AppHeaderMenu from "./AppHeaderPartials/AppHeaderMenu.vue";
+import { carosuel } from "../data.js";
 
 export default {
     name: "AppHeader",
