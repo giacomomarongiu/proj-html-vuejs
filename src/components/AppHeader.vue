@@ -43,8 +43,7 @@ export default {
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">>
-                    <img src="../assets/img/jumbo-slider/rev-slider-main-home-img-01.jpg" class="d-block w-100"
-                        alt="...">
+                    <img src="/public/img/jumbo-slider/rev-slider-main-home-img-01.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption text-dark text-start">
                         <h1 class="">Our Team</h1>
                         <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet
@@ -54,8 +53,7 @@ export default {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../assets/img/jumbo-slider/rev-slider-main-home-img-02.png" class="d-block w-100"
-                        alt="...">
+                    <img src="/public/img/jumbo-slider/rev-slider-main-home-img-02.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption text-dark text-start">
                         <h1 class="">Our Team</h1>
                         <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet
@@ -65,7 +63,6 @@ export default {
                     </div>
                 </div>
             </div>
-
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
