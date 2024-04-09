@@ -91,4 +91,8 @@ export default {
     </footer>
 </template>
 
-<style></style>
+<style>
+footer{
+    font-size: smaller;
+}
+</style>

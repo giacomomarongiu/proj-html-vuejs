@@ -145,8 +145,5 @@ export default {
 </template>
 
 <style>
-.riga {
-    line-height: 3px;
-    background: red;
-}
+
 </style>

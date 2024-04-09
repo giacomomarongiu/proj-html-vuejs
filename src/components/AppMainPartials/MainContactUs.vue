@@ -3,7 +3,7 @@ export default {
     name: "MainContactUs",
     data() {
         return {
-
+            logos: ["01", "03", "05", "07", "09"]
         }
     },
 }
@@ -50,20 +50,8 @@ export default {
         <!--Una serie di loghi-->
         <div class="logos">
             <div class="row row-cols-5">
-                <div class="col">
-                    <img src="../assets/img/clients/h4-clients-img-01.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="../assets/img/clients/h4-clients-img-03.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="../assets/img/clients/h4-clients-img-05.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="../assets/img/clients/h4-clients-img-07.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="../assets/img/clients/h4-clients-img-09.png" alt="">
+                <div class="col" v-for="logo in logos">
+                    <img :src="'/public/img/clients/h4-clients-img-' + logo + '.png'" alt="">
                 </div>
             </div>
         </div>
@@ -82,7 +70,7 @@ export default {
     border: 1px solid black;
 }
 
-.my_input{
+.my_input {
     border: none;
     border-bottom: 1px solid black;
 }

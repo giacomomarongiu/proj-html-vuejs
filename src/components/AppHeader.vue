@@ -22,7 +22,7 @@ export default {
             <div class="container-fluid">
                 <!--Qui il Logo-->
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/img/mylogo/logo-img-01.png" alt="" class="mylogo">
+                    <img src="/public/img/mylogo/logo-img-01.png" alt="" class="mylogo">
                 </a>
 
                 <!-- Inserisco dinamicamente il menu-->
