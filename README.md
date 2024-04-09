@@ -41,6 +41,5 @@
 
 8) Creare dell strutture dati in un file dedicato con gli indirizzi delle immagini per i Caroselli
 9) Creare una componente Carosello e importarla 09/04
-10) Creare una componente per ogni sezione del main (Ricorda di importare il carosello) 09/04
-
-100) Finire lo stile (10/04)
+10) Creare una componente per ogni sezione del main 09/04
+11) Riempire con img/test oggetti tutte le componenti

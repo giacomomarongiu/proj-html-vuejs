@@ -17,7 +17,7 @@ export default {
     },
     data() {
         return {
-
+            eventImgs: ["02", "03", "04", "07", "08", "09", "10",]
         }
     },
 }
@@ -26,9 +26,9 @@ export default {
 <template>
     <main>
         <!--Divided in 5 Sections-->
-        
+
         <!--1st OurSpecialities-->
-        <MainOurSpecialties />
+        <MainOurSpecialties :eventImgs="eventImgs" />
 
         <!--2nd EventsCarosue-->
         <MainEventsCarosuel />
@@ -46,21 +46,7 @@ export default {
 </template>
 
 <style>
-.window-wrapper {
-    width: 90%;
-    margin: auto;
-    position: relative;
-    z-index: 1;
-    border: 1px solid black;
-    background-color: white;
-    padding-top: 2rem;
-}
 
-
-.pippo {
-    margin-left: -2rem;
-
-}
 
 .event_tab {
     position: absolute;
