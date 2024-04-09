@@ -6,7 +6,8 @@
         },
         data() {
             return {
-
+                menuOptions: ['HOMES', 'PAGES', 'BLOG', 'SHOP', 'EVENTS', 'ELEMENTS',],
+                menuIcons: ['fa-solid fa-magnifying-glass', 'fa-solid fa-bars']
             }
         },
     }
