@@ -4,7 +4,13 @@ export default {
 
     data() {
         return {
-
+            footerSections:[
+                {
+                    title: "Twitter"
+                    icons: ['<i class="fa - brands fa - twitter"></i>', '<i class="fa - brands fa - twitter"></i>']
+                    texts: ['Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, adipisci.','Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, adipisci.']
+                }
+            ]
         }
     },
 
