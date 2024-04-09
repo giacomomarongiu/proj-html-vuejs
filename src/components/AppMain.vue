@@ -71,9 +71,9 @@ export default {
                 </div>
             </div>
 
-            <!--Carosuel and text-->
+            <!--carousel and text-->
             <div class="container w-75 m-auto d-flex pt-5">
-                <!--Carosuel-->
+                <!--carousel-->
                 <div id="carouselTwo" class="col-6 carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -110,8 +110,8 @@ export default {
                 </div>
             </div>
 
-            <!--Carosuel Events-->
-            <!--Jumbo/Carosuel-->
+            <!--carousel Events-->
+            <!--Jumbo/carousel-->
             <div id="carouselThree" class="carousel slide ">
                 <div class="carousel-inner">
                     <div class="carousel-item active">>
@@ -215,7 +215,7 @@ export default {
                 <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
             </div>
 
-            <!--Carosuel News-->
+            <!--carousel News-->
             <div id="carouselFour" class="carousel carousel-dark slide w-100">
 
 
@@ -276,7 +276,7 @@ export default {
         <div id="Testimonial position-relative">
             <!--Titles-->
 
-            <!--Carosuel-->
+            <!--carousel-->
             <div id="carouselFive" class="carousel position-relative carousel-dark slide w-100">
                 <h1 class="text-center position-absolute w-100">Testimonials</h1>
                 <div class="carousel-inner testimonials_item d-flex">
