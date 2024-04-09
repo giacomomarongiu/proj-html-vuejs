@@ -36,7 +36,7 @@ export default {
         <div class="window-wrapper m-auto container">
             <div class="titles text-center">
                 <h2>Our Specialities</h2>
-                <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h7>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h6>
             </div>
 
             <!--Row with cards-->

@@ -30,13 +30,12 @@ export default {
                         <div class="card-body">
                             <div class="card-title">
                                 <h2>Contact Us</h2>
-                                <h7>Lorem ipsuAsperiores, error?</h7>
+                                <h6>Lorem ipsuAsperiores, error?</h6>
                             </div>
                             <p class="card-text">
                                 <input type="text" class="w-50">
                                 <input type="text" class="w-50">
                                 <input type="text" class="w-100">
-
                             </p>
                             <a href="#" class="my_btn bg_myprimary">SEND | -></a>
                         </div>
