@@ -17,11 +17,13 @@ export default {
             <div class="row py-5">
                 <div class="col-6">
                     <div class="card position-relative">
-                        <img src="../assets/img/contactus/h1-contact-rev-01.png" class="d-block w-100">
-                        <div class="position-absolute end-50 top-50">
-                            <img src="../assets/img/contactus/h1-contact-rev-02.png" alt="">
-                            <h4>New York Coaching</h4>
-                            <h6>READ MORE</h6>
+                        <img src="/public/img/contactus/h1-contact-rev-01.png" class="d-block w-100">
+                        <div class="position-absolute location">
+                            <img class="location" src="/public/img/contactus/h1-contact-rev-02.png" alt="">
+                            <div class="where">
+                                <h5>New York Coaching</h5>
+                                <h6 class="fw-bold">READ MORE</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -29,13 +31,13 @@ export default {
                     <div class="card h-100">
                         <div class="card-body">
                             <div class="card-title">
-                                <h2>Contact Us</h2>
+                                <h2>Contact Us.</h2>
                                 <h6>Lorem ipsuAsperiores, error?</h6>
                             </div>
-                            <p class="card-text">
-                                <input type="text" class="w-50">
-                                <input type="text" class="w-50">
-                                <input type="text" class="w-100">
+                            <p class="card-text row ">
+                                <input type="text" class="px-1 col-6 my_input" placeholder="Your Name">
+                                <input type="text" class="px-1 col-6 my_input" placeholder="Your Name">
+                                <input type="text" class="px-1 my_input align-self-end" placeholder="Your Name">
                             </p>
                             <a href="#" class="my_btn bg_myprimary">SEND | -></a>
                         </div>
@@ -68,4 +70,20 @@ export default {
     </div>
 </template>
 
-<style></style>
+<style>
+.location {
+    top: 40%;
+    left: 20%
+}
+
+.where {
+    background: white;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+}
+
+.my_input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+</style>
