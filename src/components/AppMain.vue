@@ -31,7 +31,7 @@ export default {
         <MainOurSpecialties :eventImgs="eventImgs" />
 
         <!--2nd EventsCarosue-->
-        <MainEventsCarosuel />
+        <MainEventsCarosuel :eventImgs="eventImgs" />
 
         <!--3rd LastNews-->
         <MainLastNews />
@@ -46,13 +46,6 @@ export default {
 </template>
 
 <style>
-
-
-.event_tab {
-    position: absolute;
-    top: 25%
-}
-
 .testimonials_item {
     height: 300px;
     background: #000000bf;
