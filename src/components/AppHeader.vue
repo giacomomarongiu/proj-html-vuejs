@@ -1,9 +1,14 @@
 <script>
+import AppHeaderMenu from "./AppHeaderPartials/AppHeaderMenu.vue"
+
 export default {
     name: "AppHeader",
+    components:{
+        AppHeaderMenu,
+    },
     data() {
         return {
-            menuOptions: ["HOMES", "PAGES", "BLOG", "SHOP", "EVENTS", "ELEMENTS",],
+            menuOptions: ['HOMES', 'PAGES', 'BLOG', 'SHOP', 'EVENTS', 'ELEMENTS', ],
             menuIcons: ['fa-solid fa-magnifying-glass', 'fa-solid fa-bars']
         }
     },
@@ -23,9 +28,7 @@ export default {
                 <!-- Inserisco dinamicamente il menu-->
                 <div class="collapse navbar-collapse flex-grow-0 ml-auto" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li v-for="option in menuOptions" class="nav-item">
-                            <a class="nav-link" href="#">{{ option }}</a>
-                        </li>
+                        <AppHeaderMenu :option="option" v-for="option in menuOptions" />
                         <li v-for="icon in menuIcons">
                             <a class="nav-link" href="#"> <i :class="icon"></i></a>
                         </li>

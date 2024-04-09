@@ -24,7 +24,7 @@
     -- Una Componente Carosello a cui passo un Oggetto con: Dimensione Carosello(?), lista delle Immagini e classe per definire la tipologia di bottoni.
     -- (Dubbio) Una Componente Card
 
--quali elementi inserire dinamicamente (Scrivere qui) 
+-quali elementi inserire dinamicamente 09/04 (Scrivere qui) 
     -- Voci dell'Header (Come da consegna)
     -- Voci del Footer (Come da consegna)
     -- Card in Our specialities (Fare la struttura direttamente lì)
