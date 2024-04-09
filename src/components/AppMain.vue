@@ -150,11 +150,13 @@ export default {
             </div>
 
             <!--Due bei div al 50%-->
-            <div class="d-flex">
+            <div id="creativeleader" class="d-flex  pt-5">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 h-100">
                         <div class="card">
-                            <div class="card-title">Jason Bickford</div>
+                            <div class="card-title">
+                                <h2>Createive leader</h2>
+                            </div>
                             <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
                                 harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, debitis
                                 expedita?
@@ -162,19 +164,42 @@ export default {
                                 molestias maxime consectetur distinctio iste accusantium praesentium laudantium
                                 obcaecati culpa sed maiores, quam eligendi nostrum porro hic error esse! Sequi
                                 blanditiis vero sed nulla neque qui, repudiandae voluptatum dolorem.</div>
+                            <h6>READ MORE</h6>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="card">
-                            <div class="card-title">Jason Bickford</div>
-                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                harum.</div>
-                            <div class="card-title">Jason Bickford</div>
-                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                harum.</div>
-                            <div class="card-title">Jason Bickford</div>
-                            <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
-                                harum.</div>
+                            <div class="col-12">
+                                <div class="card-title">
+                                    <h5>Mentorship</h5>
+                                    <div class="riga text-warning">__________________________________________</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card-title">
+                                    <h5>Mentorship</h5>
+                                    <div class="riga text-warning">__________________________________________</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card-title">
+                                    <h5>Mentorship</h5>
+                                    <div class="riga text-warning">__________________________________________</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card-title">
+                                    <h5>Mentorship</h5>
+                                    <div class="riga text-warning">__________________________________________</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card-title">
+                                    <h5>Mentorship</h5>
+                                    <div class="riga text-warning">__________________________________________</div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -183,7 +208,7 @@ export default {
         </div>
 
         <!--2nd Section-->
-        <div id="latestnews" class="container">
+        <div id="latestnews" class="container pt-5">
             <!--Titles-->
             <div class="titles text-center">
                 <h2>Latest news</h2>
@@ -191,15 +216,9 @@ export default {
             </div>
 
             <!--Carosuel News-->
-            <div id="carouselExampleDark" class="carousel carousel-dark slide w-100">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
+            <div id="carouselFour" class="carousel carousel-dark slide w-100">
+
+
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <!--Row with cards-->
@@ -207,7 +226,7 @@ export default {
                             <div class="col-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <img src="../assets/img/01.jpg" class="d-block w-100">
+                                        <img src="../assets/img/blog/h1-blog-img-01.jpg" class="d-block w-100">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up the bulk
@@ -218,7 +237,7 @@ export default {
                             <div class="col-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <img src="../assets/img/01.jpg" class="d-block w-100">
+                                        <img src="../assets/img/blog/h1-blog-img-02.jpg" class="d-block w-100">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up the bulk
@@ -229,7 +248,7 @@ export default {
                             <div class="col-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <img src="../assets/img/01.jpg" class="d-block w-100">
+                                        <img src="../assets/img/blog/h1-blog-img-03.jpg" class="d-block w-100">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up the bulk
@@ -241,13 +260,12 @@ export default {
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFour" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFour" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -255,29 +273,23 @@ export default {
         </div>
 
         <!--3rd Section-->
-        <div id="Testimonial">
+        <div id="Testimonial position-relative">
             <!--Titles-->
-            <h1 class="text-center">Testimonials</h1>
 
             <!--Carosuel-->
-            <div id="carouselExampleDark" class="carousel carousel-dark slide w-100">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="../assets/img/01.jpg" class="d-block w-100">
-                        <div class="carousel-caption d-none d-md-block">
+            <div id="carouselFive" class="carousel position-relative carousel-dark slide w-100">
+                <h1 class="text-center position-absolute w-100">Testimonials</h1>
+                <div class="carousel-inner testimonials_item d-flex">
+                    <div class="carousel-item active position-relative d-flex justify-content-center"
+                        data-bs-interval="10000">
+                        <img src="../assets/img/testimonials/h3-img-04.png" class="h-25 align-self-center">
+                        <div class="carousel-caption bottom-0">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -291,34 +303,41 @@ export default {
             </div>
 
             <!--Video-->
-            <h1>Questa è l'antemprima del video</h1>
+
             <img src="../assets/img/01.jpg" class="d-block w-100">
 
         </div>
 
         <!--4th-->
-        <div id="contactus">
+        <div id="contactus" class="py-5 w-75 m-auto">
 
             <!--Due bei div al 50%-->
             <div class="d-flex">
-                <div class="row">
+                <div class="row py-5">
                     <div class="col-6">
-                        <div class="card">
-                            <img src="../assets/img/01.jpg" class="d-block w-100">
+                        <div class="card position-relative">
+                            <img src="../assets/img/contactus/h1-contact-rev-01.png" class="d-block w-100">
+                            <div class="position-absolute end-50 top-50">
+                                <img src="../assets/img/contactus/h1-contact-rev-02.png" alt="">
+                                <h4>New York Coaching</h4>
+                                <h6>READ MORE</h6>
+                            </div>
                         </div>
                     </div>
                     <div class="col-6 h-100">
                         <div class="card h-100">
                             <div class="card-body">
                                 <div class="card-title">
-                                    <h2>Our Specialities</h2>
+                                    <h2>Contact Us</h2>
                                     <h7>Lorem ipsuAsperiores, error?</h7>
                                 </div>
                                 <p class="card-text">
-                                    <input type="text">
-                                    <input type="text">
+                                    <input type="text" class="w-50">
+                                    <input type="text" class="w-50">
+                                    <input type="text" class="w-100">
+
                                 </p>
-                                <a href="#" class="btn btn-primary">send</a>
+                                <a href="#" class="my_btn bg_myprimary">SEND | -></a>
                             </div>
 
                         </div>
@@ -330,24 +349,7 @@ export default {
             <div class="logos">
                 <div class="row row-cols-5">
                     <div class="col">
-                        <div class="card">LOGO QUI Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-                            tempore.</div>
-                    </div>
-                    <div class="col">
-                        <div class="card">LOGO QUI Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-                            tempore.</div>
-                    </div>
-                    <div class="col">
-                        <div class="card">LOGO QUI Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-                            tempore.</div>
-                    </div>
-                    <div class="col">
-                        <div class="card">LOGO QUI Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-                            tempore.</div>
-                    </div>
-                    <div class="col">
-                        <div class="card">LOGO QUI Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-                            tempore.</div>
+                        <img src="../assets/img/clients/h4-clients-img-01.png" alt="">
                     </div>
                 </div>
             </div>
@@ -373,8 +375,13 @@ export default {
 
 }
 
-.event_tab{
+.event_tab {
     position: absolute;
-    top:25%
+    top: 25%
+}
+
+.testimonials_item {
+    height: 300px;
+    background: #000000bf;
 }
 </style>
