@@ -74,7 +74,7 @@ export default {
             <!--Carosuel and text-->
             <div class="container w-75 m-auto d-flex pt-5">
                 <!--Carosuel-->
-                <div id="carouselTwo" class="col-7 carousel slide">
+                <div id="carouselTwo" class="col-6 carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="../assets/img/events/h1-img-01.jpg" class="d-block w-100" alt="...">
@@ -98,7 +98,7 @@ export default {
                 </div>
 
                 <!--Text-->
-                <div class="pippo col-7 align-self-center position-relative">
+                <div class="pippo col-6 align-self-center position-relative">
                     <div class="card py-5 px-3">
                         <div class="card-body">
                             <div class="card-title">Jason Bickford</div>
@@ -150,7 +150,7 @@ export default {
             </div>
 
             <!--Due bei div al 50%-->
-            <div id="creativeleader" class="d-flex  pt-5">
+            <div id="creativeleader" class="d-flex container pt-5">
                 <div class="row">
                     <div class="col-6 h-100">
                         <div class="card">
@@ -350,6 +350,18 @@ export default {
                 <div class="row row-cols-5">
                     <div class="col">
                         <img src="../assets/img/clients/h4-clients-img-01.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../assets/img/clients/h4-clients-img-03.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../assets/img/clients/h4-clients-img-05.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../assets/img/clients/h4-clients-img-07.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../assets/img/clients/h4-clients-img-09.png" alt="">
                     </div>
                 </div>
             </div>

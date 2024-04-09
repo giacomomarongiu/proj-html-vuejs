@@ -12,51 +12,19 @@ export default {
 </script>
 
 <template>
-    <footer>
-        <div class="container">
-            <div class="row">
+    <footer class="bg-dark py-5 m-auto">
+        <div class="container  w-75">
+            <div class="row py-5">
                 <div class="col-3">
-                    <div class="card">
-                        <div class="card-title">
-                            About
-                        </div>
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, dolorem.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-title">
-                            About
-                        </div>
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, dolorem.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-title">
-                            About
-                        </div>
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, dolorem.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-title">
-                            About
-                        </div>
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, dolorem.
-                        </div>
-                    </div>
+                    <section class="text-light">
+                        <h6>Pippo</h6>
+                        <div>___</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, adipisci.</p>
+                    </section>
                 </div>
             </div>
         </div>
+        <div class="text-light text-center bg-warning">Copyright</div>
     </footer>
 </template>
 
