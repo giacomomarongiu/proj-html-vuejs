@@ -34,8 +34,13 @@
     -- Loghi
 
 6) Creare una struttura dati idonea per popolare le voci di Header e Footer 09/04
+
 7) Stampare dinamicamente le voci tramite le Props 09/04 e valutare il tempo
-    - Se c'è tempo fare le componenti e pensare dopo allo stile
+    - Se c'è tempo: iniziare a creare le varie Componenti pensate nella Milestone 5 e popolarle
     - Se no dedicarsi direttamente allo stile e renderlo identico allo screen
-89) Finire lo stile (data?)
-89) Iniziare a creare le varie Componenti pensate nella Milestone 5 e popolarle (data?)
+
+8) Creare dell strutture dati in un file dedicato con gli indirizzi delle immagini per i Caroselli
+9) Creare una componente Carosello e importarla nel main 09/04
+10) Creare una componente per ogni sezione del main (Ricorda di importare il carosello) 09/04
+
+100) Finire lo stile (10/04)
