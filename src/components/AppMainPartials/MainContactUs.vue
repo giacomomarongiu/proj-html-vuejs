@@ -68,7 +68,7 @@ export default {
                                 <input type="text" class="my_input col-5" placeholder="Your email...">
                                 <input type="text" class="my_input pb-5" placeholder="Some text...">
                             </p>
-                            <button class="border border-0 bg_myprimary w-25 my_text_smaller py-3 fw-bold">SEND |
+                            <button class="border border-0 bg_myprimary w-25 my_text_smaller py-3 fw-bold">SEND <span class="linebye">|</span>
                                 &#10230;</button>
                         </div>
 

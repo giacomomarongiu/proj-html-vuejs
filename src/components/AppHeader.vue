@@ -51,8 +51,8 @@ export default {
                         <h1 class="">Our Team<span class="text_myprimary">.</span></h1>
                         <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet
                             dicta eaque quos atque veritatis saepe similique sequi ipsam mollitia?</p>
-                        <button type="" class="my_btn bg_myprimary">READ MORE | &#10230</button>
-                        <button type="" class="my_btn bg_mylight">PURCHASE | &#10230</button>
+                        <button type="" class="my_btn bg_myprimary">READ MORE <span class="linebye">|</span> &#10230</button>
+                        <button type="" class="my_btn bg_mylight">PURCHASE <span class="linebye">|</span> &#10230</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -61,8 +61,8 @@ export default {
                         <h1 class="">Another Team<span class="text_myprimary">.</span></h1>
                         <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet
                             dicta eaque quos atque veritatis saepe similique sequi ipsam mollitia?</p>
-                        <button type="" class="my_btn bg_myprimary">READ MORE | &#10230</button>
-                        <button type="" class="my_btn bg_mylight">PURCHASE | &#10230</button>
+                        <button type="" class="my_btn bg_myprimary">READ MORE <span class="linebye">|</span> &#10230</button>
+                        <button type="" class="my_btn bg_mylight">PURCHASE <span class="linebye">|</span> &#10230</button>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,6 @@ header {
 
 #jumbocarosuel {
     z-index: 0;
-
     .carousel-caption {
         width: 35%;
         top: 40%;

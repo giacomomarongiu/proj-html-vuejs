@@ -71,8 +71,10 @@ export default {
     <div id="latestnews" class="container pt-5">
         <!--Titles-->
         <div class="titles text-center">
-            <h2>Latest news</h2>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</h6>
+            <h2 class="fw-bold">Latest news<span class="text_myprimary">.</span></h2>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, error?</p>
+            <div class="riga w-100 m-auto mt-4">________</div>
+
         </div>
         <!--carousel News-->
         <div id="carouselFour" class="carousel carousel-dark slide w-100">

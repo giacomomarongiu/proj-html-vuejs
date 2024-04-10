@@ -67,17 +67,8 @@ header {
 
 }
 
-#jumbocarousel {
-  z-index: 0;
-
-  .carousel-caption {
-    width: 35%;
-    top: 35%
-  }
-}
-
 .riga {
-  line-height: 1px;
+  line-height: 2px;
   color: transparent;
   max-width: max-content;
   background: var(--bool-bg-primary);

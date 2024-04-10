@@ -35,8 +35,8 @@ export default {
                                     </div>
                                 </div>
                                 <div class="ps-3 right_event col-9 d-flex flex-column align-items-start">
-                                    <h6 class="fw-bold">New York Coaching</h6>
-                                    <p class="date m-0">
+                                    <h6 class="fw-bold hover_title">New York Coaching</h6>
+                                    <p class="date m-0 pb-2">
                                         <i class="text_myprimary fa-regular fa-clock "></i>
                                         9:00 am - 5 p.m, Jan 7, 2022
                                     </p>
@@ -72,10 +72,13 @@ export default {
         height: 55px;
         font-size: small;
     }
-    .date{
+
+    .date {
         font-size: x-small;
     }
 }
 
-
+.hover_title:hover {
+    color: var(--bool-bg-primary);
+}
 </style>
