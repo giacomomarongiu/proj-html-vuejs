@@ -18,7 +18,7 @@ export default {
                             },
                             ],
                     },
-                    bottomicons: ["fa-brands fa-linkedin", "fa-brands fa-linkedin", "fa-brands fa-linkedin"]
+                    bottomicons: ["fa-brands fa-linkedin", "fa-brands fa-facebook", "fa-brands fa-twitter"]
                 },
                 {
                     title: "Twitter",
@@ -59,19 +59,20 @@ export default {
                     body: {
                         insides:
                             [{
-                                icon: 'fa-brands fa-twitter',
-                                text: 'Lorem ipsum dolor sit ',
+                                icon: 'fa-solid fa-location-dot',
+                                text: 'Via delle Renne, 46, Roma (RO)',
                             },
                             {
-                                icon: 'fa-brands fa-twitter',
-                                text: 'Lorem ipsum dolor sit ',
+                                icon: 'fa-solid fa-phone',
+                                text: '070 / 4732 9634',
                             },
                             {
-                                icon: 'fa-brands fa-twitter',
-                                text: 'Lorem ipsum dolor sit ',
+                                icon: 'fa-solid fa-envelope',
+                                text: 'latuamail@boolean.com',
                             }
                             ],
-                    }
+                    },
+                    input: true,
                 },
             ]
         }
@@ -87,12 +88,16 @@ export default {
                 <AppFooterMenu :section="section" v-for="section in footerSections" />
             </div>
         </div>
-        <div class="text-light text-center bg-warning">Copyright</div>
+        <div class="text-light text-center py-2 bg_myprimary">Copyright Giacomo Marongiu - Boolean 119</div>
     </footer>
 </template>
 
 <style>
-footer{
+footer {
     font-size: smaller;
+}
+
+.footer_form {
+    border-bottom: 1px solid white;
 }
 </style>
