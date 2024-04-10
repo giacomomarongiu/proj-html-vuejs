@@ -17,7 +17,7 @@ export default {
     },
     data() {
         return {
-            eventImgs: ["02", "03", "04", "07", "08", "09", "10",]
+            eventImgs: ["02", "03"]
         }
     },
 }
