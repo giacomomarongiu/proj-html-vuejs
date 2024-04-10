@@ -43,4 +43,3 @@
 9) Creare una componente Carosello e importarla 09/04
 10) Creare una componente per ogni sezione del main 09/04
 11) Riempire con img/testi oggetti tutte le componenti 09/04
-12) SISTEMARE TUTTO LO STILE, ELENCO:

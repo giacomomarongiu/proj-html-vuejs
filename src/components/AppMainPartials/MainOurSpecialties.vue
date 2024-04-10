@@ -68,24 +68,29 @@ export default {
                 </div>
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="" aria-hidden="true"></span>
+                    <span class="">&#10229;</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselTwo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="" aria-hidden="true"></span>
+                    <span class="">&#10230</span>
                 </button>
+                <div class="my_buttons position-absolute">
+                    <button class="border border-0 bg_myprimary w-25">&#10229;</button>
+                    <button class="border border-0 bg_myprimary w-25">&#10230;</button>
+                </div>
             </div>
 
             <!--Text-->
             <div class="mini-window col-6 align-self-center position-relative">
-                <div class="card py-5 px-3 border border-0 rounded-0">
+                <div class="card py-4 px-3 border border-0 rounded-0">
                     <div class="card-body">
-                        <h3 class="card-title">Jason Bickford</h3>
-                        <p class="card-title">Founder and Executor Director</p>
+                        <h3 class="card-title ">Jason Bickford</h3>
+                        <p class="card-title text_smaller">Founder and Executor Director</p>
+                        <div class="riga mb-2">---------</div>
                         <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
                             harum.</div>
-                        <i v-for="icon in bottomicons" :class="icon"></i>
+                        <i class="text_myprimary pt-2 pe-2" v-for="icon in bottomicons" :class="icon"></i>
                     </div>
                 </div>
             </div>
@@ -95,6 +100,10 @@ export default {
 </template>
 
 <style>
+#ourspecialities {
+    background: var(--bool-bg-lightgrey);
+}
+
 .window-wrapper {
     width: 90%;
     margin: auto;
@@ -106,5 +115,22 @@ export default {
 
 .mini-window {
     margin-left: -2rem;
+
+    .card-text {
+        font-size: smaller;
+    }
+    .text_smaller{
+        font-size: small;
+    }
+
+}
+
+.my_buttons {
+    width: 35%;
+    bottom: 0;
+
+    button {
+        height: 35px;
+    }
 }
 </style>
