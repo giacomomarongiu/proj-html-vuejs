@@ -29,8 +29,8 @@ export default {
 </script>
 
 <template>
-    <!--1st section Our Specialities-->
-    <div id="ourspecialities" class="">
+    <!--1st part Our Specialities-->
+    <div id="ourspecialities" class=" ">
 
         <!--Titles & cards-->
         <div class="window-wrapper m-auto container">
@@ -42,7 +42,7 @@ export default {
             <!--Row with cards-->
             <div class="row m-5 gx-5">
                 <div class="col-3" v-for="item in svgImgs">
-                    <div class="card border border-0 m-4">
+                    <div class="card border border-0 m-5">
                         <img :src="item.url" class="card-img-top p-3 pb-1" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold pt-0">{{ item.name }}</h5>
@@ -54,7 +54,11 @@ export default {
         </div>
 
         <!--carousel and text-->
-        <div class="container w-75 m-auto d-flex pt-5">
+        <div class="container w-75 m-auto d-flex pt-5 position-relative">
+            <!--Bg circle-->
+            <div class="position-absolute top-0 circle">
+                <img class="w-75" src="/public/img/svgs/svg-4.svg" alt="">
+            </div>
 
             <!--carousel-->
             <div id="carouselTwo" class="col-6 carousel slide">
@@ -83,9 +87,9 @@ export default {
 
             <!--Text-->
             <div class="mini-window col-6 align-self-center position-relative">
-                <div class="card py-4 px-3 border border-0 rounded-0">
+                <div class="card py-5 px-3 border border-0 rounded-0">
                     <div class="card-body">
-                        <h3 class="card-title ">Jason Bickford</h3>
+                        <h3 class="card-title">Jason Bickford</h3>
                         <p class="card-title text_smaller">Founder and Executor Director</p>
                         <div class="riga mb-2">---------</div>
                         <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
@@ -102,6 +106,7 @@ export default {
 <style>
 #ourspecialities {
     background: var(--bool-bg-lightgrey);
+    padding-bottom: 8rem;
 }
 
 .window-wrapper {
@@ -119,7 +124,8 @@ export default {
     .card-text {
         font-size: smaller;
     }
-    .text_smaller{
+
+    .text_smaller {
         font-size: small;
     }
 
@@ -128,9 +134,14 @@ export default {
 .my_buttons {
     width: 35%;
     bottom: 0;
-z-index: 2;
+    z-index: 2;
+
     button {
-        height: 35px;
+        height: 50px;
     }
+}
+
+.circle{
+    right:-16%
 }
 </style>

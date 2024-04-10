@@ -37,6 +37,5 @@ export default {
         padding: 0.5rem;
         color: var(--bool-bg-primary);
     }
-
 }
 </style>

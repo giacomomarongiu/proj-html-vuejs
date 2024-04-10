@@ -82,13 +82,13 @@ export default {
 </script>
 
 <template>
-    <footer class="bg-dark py-5 m-auto">
+    <footer class="bg-dark pt-5 m-auto">
         <div class="container  w-75">
-            <div class="row py-5">
+            <div class="row p-5">
                 <AppFooterMenu :section="section" v-for="section in footerSections" />
             </div>
         </div>
-        <div class="text-light text-center py-2 bg_myprimary">Copyright Giacomo Marongiu - Boolean 119</div>
+        <div class="text-center py-2 bg_myprimary">Copyright Giacomo Marongiu - Boolean 119</div>
     </footer>
 </template>
 

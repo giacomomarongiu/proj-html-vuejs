@@ -1,12 +1,12 @@
 # Consegna
-- Riprodurre il layout assegnato solo in versione desktop.
+- Riprodurre il layout assegnato solo in versione desktop. OK
 
 ## Requisiti tecnici minimi
 - Creare un progetto con Vite OK
 - Creare 3 Macro-Componenti Header/Main/Footer OK
-- Popolare le voci di Header e Footer dinamicamente
--- Farlo tramite le Props
--- Creando una struttura dati idonea
+- Popolare le voci di Header e Footer dinamicamente OK
+-- Farlo tramite le Props OK
+-- Creando una struttura dati idonea OK
 
 ### Suddivisione del lavoro in Milestone
 0) Creare il file Vite, ripulirlo e individuare/creare le Macro-Componenti
@@ -43,3 +43,4 @@
 9) Creare una componente Carosello e importarla 09/04
 10) Creare una componente per ogni sezione del main 09/04
 11) Riempire con img/testi oggetti tutte le componenti 09/04
+12) Finire tutto lo stile 10/04

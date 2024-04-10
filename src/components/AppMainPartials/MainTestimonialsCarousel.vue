@@ -57,7 +57,7 @@ export default {
 <style>
 .testimonials_item {
     height: 400px;
-    background: #000000bf;
+    background: #1e1c1cf5;
     padding-bottom: 5rem
 }
 

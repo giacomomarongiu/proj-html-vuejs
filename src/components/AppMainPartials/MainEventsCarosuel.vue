@@ -13,23 +13,24 @@ export default {
 </script>
 
 <template>
+    <!--A big carousel-->
     <div id="eventscarousel" class="carousel slide ">
         <div class="carousel-inner">
-            <div class="carousel-item active">>
+            <div class="carousel-item active">
                 <img src="/public/img/events/h1-img-01.jpg" class="d-block w-100" alt="...">
             </div>
+            <!--Inserisco dinamicamente le immagini-->
             <div class="carousel-item" v-for="img in eventImgs">
                 <img :src="'/public/img/events/h1-img-' + img + '.jpg'" class="d-block w-100" alt="...">
             </div>
             <div class="event_tab w-50 carousel-caption text-dark text-start">
                 <div class="wrapper col-6 bg-light">
-                    <h3 class="p-3 ps-4 fw-bold">Upcoming Events</h3>
+                    <h4 class="p-3 ps-4 fw-bold">Upcoming Events</h4>
                     <div class="row flex-column">
                         <div class="col" v-for="index in 3">
                             <div class="left_event events-card border d-flex p-4 pb-2">
                                 <div class="col-3 d-flex justify-content-center ">
-                                    <div
-                                        class="square d-flex flex-column align-items-center justify-content-center">
+                                    <div class="square d-flex flex-column align-items-center justify-content-center">
                                         <div class="fw-bold">07</div>
                                         <span>June 2022</span>
                                     </div>
@@ -68,9 +69,9 @@ export default {
     top: 25%;
 
     .square {
-        width: 70px;
+        width: 66px;
         height: 55px;
-        font-size: small;
+        font-size: x-small;
         background: var(--bool-bg-primary);
         color: white
     }

@@ -21,6 +21,8 @@
   --bool-bg-darkkkkkk: #d9d9d9;
 }
 
+/*All styles are on the components*/
+/*Globals*/
 h1,
 h2,
 h3,
@@ -31,8 +33,22 @@ h6 {
     serif;
 }
 
-/*Utilities */
 
+/*My Utilities*/
+/*Buttons*/
+.my_btn {
+  border: none;
+  font-size: xx-small;
+  font-weight: bolder;
+  min-width: 150px;
+  min-height: 40px;
+
+  .linebye {
+    padding-left: 1rem;
+    padding-right: 0.3rem;
+  }
+
+}
 
 .bg_myprimary {
   color: white;
@@ -66,30 +82,22 @@ h6 {
   }
 }
 
+
+/*Text smaller tha bootstrap fs-6*/
 .my_text_smaller {
   font-size: x-small;
 }
 
-.my_btn {
-  border: none;
-  font-size: xx-small;
-  font-weight: bolder;
-  min-width: 150px;
-  min-height: 40px;
-
-  .linebye {
-    padding-left: 1rem;
-        padding-right: 0.3rem;
-  }
-
-}
-
+/*Orange line*/
 .riga {
   line-height: 2px;
   color: transparent;
   max-width: max-content;
   background: var(--bool-bg-primary);
 }
+
+
+
 
 
 

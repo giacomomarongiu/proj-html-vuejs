@@ -68,7 +68,10 @@ export default {
         </div>
     </div>
 
-    <div id="latestnews" class="container pt-5">
+    <div id="latestnews" class="container pt-5 position-relative">
+        <div class="position-absolute circletwo">
+            <img class="w-75" src="/public/img/svgs/svg-4.svg" alt="">
+        </div>
         <!--Titles-->
         <div class="titles text-center">
             <h2 class="fw-bold">Latest news<span class="text_myprimary">.</span></h2>
@@ -76,6 +79,7 @@ export default {
             <div class="riga w-100 m-auto mt-4">________</div>
 
         </div>
+        
         <!--carousel News-->
         <div id="carouselFour" class="carousel carousel-dark slide w-100">
             <div class="carousel-inner">
@@ -153,23 +157,34 @@ export default {
     </div>
 </template>
 
-<style >
-.card_wrapper{
-    button{
-        bottom:-10px;
+<style>
+#latestnews {
+    background: var(--bool-bg-lightgrey);
+
+    .circletwo {
+        left: 0;
+        top:-12%;
+    }
+
+
+}
+
+.card_wrapper {
+    button {
+        bottom: -10px;
         right: 10px
     }
 }
 
-.riga_grafico{
+.riga_grafico {
     height: 3px;
 }
 
-.chiara{
+.chiara {
     background: rgb(244, 167, 153);
 }
 
-.blog_p{
+.blog_p {
     font-size: small;
 }
 </style>
