@@ -87,7 +87,7 @@ export default {
                                 <div class="card-body">
                                     <div class="card_wrapper position-relative">
                                         <img src="/public/img/events/h1-img-01.jpg" class="d-block w-100">
-                                        <button class="my_btn bg_myprimary position-absolute text-light fw-normal"><i
+                                        <button class="my_btn bg_myprimary position-absolute fw-normal"><i
                                                 class="fa-regular fa-circle-check"></i> Business, Leading</button>
                                     </div>
                                     <div class="date my_text_smaller pt-4">
@@ -105,7 +105,7 @@ export default {
                                 <div class="card-body">
                                     <div class="card_wrapper position-relative">
                                         <img src="/public/img/events/h1-img-02.jpg" class="d-block w-100">
-                                        <button class="my_btn bg_myprimary position-absolute text-light fw-normal"><i
+                                        <button class="my_btn bg_myprimary position-absolute fw-normal"><i
                                                 class="fa-regular fa-circle-check"></i> Business, Leading</button>
                                     </div>
                                     <div class="date my_text_smaller pt-4">
@@ -123,7 +123,7 @@ export default {
                                 <div class="card-body">
                                     <div class="card_wrapper position-relative">
                                         <img src="/public/img/events/h1-img-03.jpg" class="d-block w-100">
-                                        <button class="my_btn bg_myprimary position-absolute text-light fw-normal"><i
+                                        <button class="my_btn bg_myprimary position-absolute  fw-normal"><i
                                                 class="fa-regular fa-circle-check"></i> Business, Leading</button>
                                     </div>
                                     <div class="date my_text_smaller pt-4">

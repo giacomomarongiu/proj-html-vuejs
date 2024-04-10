@@ -17,6 +17,8 @@ export default {
 
 <template>
     <header class="">
+        <!-- 2 Parts NavBar and Jumbo/Carousel-->
+
         <!--NavBar-->
         <nav class="navbar navbar-expand-lg position-absolute z-1 w-100 pt-5 text-dark fw-bold">
             <div class="container-fluid">
@@ -28,7 +30,7 @@ export default {
                 <!-- Inserisco dinamicamente il menu-->
                 <div class="collapse navbar-collapse flex-grow-0 ml-auto" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!--Qui con la Props passata alla componente-->
+                        <!--Stampo qui con la Props passata alla componente-->
                         <AppHeaderMenu :option="option" v-for="option in menuOptions" />
 
                         <!--Qui con un semplice ciclo-->
@@ -36,33 +38,36 @@ export default {
                             <a class="nav-link" href="#"> <i :class="icon"></i></a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
         <!--/NavBar-->
 
-        <!--Jumbo/Carosuel-->
+        <!--Jumbo/Carousel-->
         <div id="jumbocarosuel" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">>
                     <img src="/public/img/jumbo-slider/rev-slider-main-home-img-01.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption text-dark text-start">
-                        <h1 class="">Our Team<span class="text_myprimary">.</span></h1>
+                        <h1 class="fw-bold">Our Team<span class="text_myprimary">.</span></h1>
                         <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet
-                            dicta eaque quos atque veritatis saepe similique sequi ipsam mollitia?</p>
-                        <button type="" class="my_btn bg_myprimary">READ MORE <span class="linebye">|</span> &#10230</button>
-                        <button type="" class="my_btn bg_mylight">PURCHASE <span class="linebye">|</span> &#10230</button>
+                            dicta milique sequi ipsam mollitia?</p>
+                        <button type="" class="my_btn bg_mylight ">READ MORE <span class="linebye">|</span>
+                            &#10230</button>
+                        <button type="" class="my_btn bg_myprimary">PURCHASE <span class="linebye">|</span>
+                            &#10230</button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="/public/img/jumbo-slider/rev-slider-main-home-img-02.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption text-dark text-start">
-                        <h1 class="">Another Team<span class="text_myprimary">.</span></h1>
-                        <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet
-                            dicta eaque quos atque veritatis saepe similique sequi ipsam mollitia?</p>
-                        <button type="" class="my_btn bg_myprimary">READ MORE <span class="linebye">|</span> &#10230</button>
-                        <button type="" class="my_btn bg_mylight">PURCHASE <span class="linebye">|</span> &#10230</button>
+                        <h1 class="fw-bold">Another Team<span class="text_myprimary">.</span></h1>
+                        <p class="fs-6 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveni
+                            veritatis saepe similique sequi ipsam mollitia?</p>
+                        <button type="" class="my_btn bg_myprimary">READ MORE <span class="linebye">|</span>
+                            &#10230</button>
+                        <button type="" class="my_btn bg_mylight">PURCHASE <span class="linebye">|</span>
+                            &#10230</button>
                     </div>
                 </div>
             </div>
@@ -75,6 +80,8 @@ export default {
                 <span class=""><i class="fa-solid fa-arrow-right-long fa-2x text-dark"></i></span>
             </button>
         </div>
+        <!--/Jumbo/Carousel-->
+
     </header>
 </template>
 
@@ -120,12 +127,17 @@ header {
 
 #jumbocarosuel {
     z-index: 0;
+
     .carousel-caption {
         width: 35%;
         top: 40%;
-        .my_btn{
+
+        .my_btn {
             margin-right: 1rem;
         }
+    }
+    h1{
+        font-size: 70px;
     }
 }
 </style>

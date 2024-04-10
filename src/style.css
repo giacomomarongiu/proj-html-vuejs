@@ -23,23 +23,29 @@
 
 h1,
 h2,
-h3,h4,h5,h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: "IBM Plex Serif",
     serif;
 }
 
 /*Utilities */
-.my_btn {
-  border: none;
-  font-size:xx-small;
-  font-weight: bolder;
-  min-width: 150px;
-  min-height: 40px;
-}
+
 
 .bg_myprimary {
   color: white;
   background-color: var(--bool-bg-primary);
+
+  &:hover {
+    color: black;
+    background: white;
+
+    .linebye {
+      display: none;
+    }
+  }
 }
 
 .text_myprimary {
@@ -49,20 +55,31 @@ h3,h4,h5,h6 {
 .bg_mylight {
   color: black;
   background-color: var(--bool-bg-lighter);
+
+  &:hover {
+    color: white;
+    background: var(--bool-bg-primary);
+
+    .linebye {
+      display: none;
+    }
+  }
 }
 
-.my_text_smaller{
-  font-size:x-small;
+.my_text_smaller {
+  font-size: x-small;
 }
 
-/*Header*/
-header {
-  margin-top: -2rem;
-  margin-bottom: -2rem;
+.my_btn {
+  border: none;
+  font-size: xx-small;
+  font-weight: bolder;
+  min-width: 150px;
+  min-height: 40px;
 
-
-  .mylogo {
-    max-width: 100px;
+  .linebye {
+    padding-left: 1rem;
+        padding-right: 0.3rem;
   }
 
 }

@@ -128,7 +128,7 @@ export default {
 .my_buttons {
     width: 35%;
     bottom: 0;
-
+z-index: 2;
     button {
         height: 35px;
     }

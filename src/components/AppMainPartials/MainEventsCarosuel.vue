@@ -29,7 +29,7 @@ export default {
                             <div class="left_event events-card border d-flex p-4 pb-2">
                                 <div class="col-3 d-flex justify-content-center ">
                                     <div
-                                        class="text-light  bg_myprimary square d-flex flex-column align-items-center justify-content-center">
+                                        class="square d-flex flex-column align-items-center justify-content-center">
                                         <div class="fw-bold">07</div>
                                         <span>June 2022</span>
                                     </div>
@@ -71,6 +71,8 @@ export default {
         width: 70px;
         height: 55px;
         font-size: small;
+        background: var(--bool-bg-primary);
+        color: white
     }
 
     .date {
