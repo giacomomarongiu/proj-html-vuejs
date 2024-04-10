@@ -42,7 +42,7 @@ export default {
             <!--Row with cards-->
             <div class="row m-5 gx-5">
                 <div class="col-3" v-for="item in svgImgs">
-                    <div class="card border border-0 m-5">
+                    <div class="card border border-0 m-3">
                         <img :src="item.url" class="card-img-top p-3 pb-1" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold pt-0">{{ item.name }}</h5>
